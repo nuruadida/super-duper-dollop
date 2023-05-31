@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nuruadida/super-duper-dollop.git"
+    "url": "git+https://github.com/nuruadida/super-duper-dollop.git"
   },
   "author": "nurul",
   "license": "ISC",
@@ -27,5 +27,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.22.1"
+  },
+  "directories": {
+    "test": "test"
   }
 }
