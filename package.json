@@ -1,0 +1,31 @@
+{
+  "name": "super-duper-dollop",
+  "version": "1.0.0",
+  "description": "mocha chai PetStore example",
+  "main": "index.js",
+  "scripts": {
+    "assert": "mocha test/api/chaiAssert.js",
+    "welcome": "mocha test/api/testWelcome.js",
+    "test get": "mocha test/api/getExample.js",
+    "test post": "mocha test/api/postExample.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nuruadida/super-duper-dollop.git"
+  },
+  "author": "nurul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nuruadida/super-duper-dollop.git"
+  },
+  "homepage": "https://github.com/nuruadida/super-duper-dollop.git",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.1"
+  }
+}
